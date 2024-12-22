@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: Simple RPC Service
-    env: java
-    buildCommand: "javac RpcService.java"
-    startCommand: "java RpcService"
-    plan: free
-    autoDeploy: true
